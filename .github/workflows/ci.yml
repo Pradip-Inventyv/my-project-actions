@@ -26,7 +26,7 @@ jobs:
 
     - name: test
       run: |
-        ls -R /var/lib/docker/tmp/buildkit-mount623734951/
+        sudo ls -R /var/lib/docker/tmp/buildkit-mount623734951/
 
     - name: Build and Push Docker Image 
       uses: mr-smithers-excellent/docker-build-push@v4
